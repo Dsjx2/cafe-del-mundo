@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café del Mundo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Café del Mundo</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#sobre">Sobre Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h2>Menú</h2>
+            <ul>
+                <li>Café Espresso - Q2.00</li>
+                <li>Café Latte - Q3.00</li>
+                <li>Cappuccino - Q3.50</li>
+                <li>Pastel de Chocolate - Q2.50</li>
+                <li>Bizcocho de Vainilla - Q2.00</li>
+            </ul>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nosotros</h2>
+            <p>En Café del Mundo, ofrecemos el mejor café de la ciudad en un ambiente acogedor. Ven y disfruta de una
+                experiencia única.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="response"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Café del Mundo. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
